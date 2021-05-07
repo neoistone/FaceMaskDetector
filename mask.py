@@ -12,7 +12,7 @@ import datetime
 
 # IMPLEMENTING LIVE DETECTION OF FACE MASK
 
-mymodel=load_model('/Volumes/Backup/projects/python/advance/class1/leo.h5')
+mymodel=load_model('leo.h5')
 
 cap=cv2.VideoCapture(0)
 face_cascade=cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
